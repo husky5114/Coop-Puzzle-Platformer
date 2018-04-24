@@ -89,7 +89,6 @@ public class Activatable : NetworkBehaviour {
     void exitLogic() {
         if (exitCounter >= 4) {
             if (SceneManager.GetActiveScene().name == "1") {
-                NetworkManager.
                 SceneManager.LoadScene("3");
             }
             else if (SceneManager.GetActiveScene().name == "3") {
